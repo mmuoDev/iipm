@@ -101,7 +101,7 @@
                         <p class="white-text">IIPM is an emerging world-class leading human capital development institute focusing on growing the managerial
                             and leadership capacities of both individuals and organizations.
                         </p>
-                        <a class="white-btn" href="#contact">Get Started!</a>
+                        <a class="white-btn" href="#service">Our Courses</a>
                         <a class="main-btn" href="#about">Learn more</a>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                     <p>This course is specifically designed for those who want to boost their creative, innovative,
                         analytic, problem-solving, decision-making  and people  skills. Those who want to achieve more with less stress
                         and time thus improving productivity, profitability and performance.</p>
-                    <a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>
+                    {{--<a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>--}}
                 </div>
             </div>
             <!-- /service -->
@@ -207,7 +207,7 @@
                     <p>This course is designed specifically for those who want to know how to manage people to produce great result;
                         Human Resource Managers, Project Managers, Customer Relations Managers, ICT professionals, team/group
                         leaders, entrepre neurs, consultants and business managers among others.</p>
-                    <a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>
+                    {{--<a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>--}}
                 </div>
             </div>
             <!-- /service -->
@@ -220,7 +220,7 @@
                     <p>This course is specifically designed for all who want to work as customer relations/service  managers including HR managers, business managers, project managers, accountants/cost
                         managers, ICT professionals, teachers, lecturers, entrepreneurs, consultants, bankers and
                         trainers among others.</p>
-                    <a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>
+                    {{--<a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>--}}
                 </div>
             </div>
             <!-- /service -->
@@ -232,7 +232,7 @@
                     <h3>Strategic Business Management and Entrepreneurship Development</h3>
                     <p>This course is designed for all who want to increase their value and remain relevant in the business industry;
                         entrepreneurs, consultants, investors,  managers among others.</p>
-                    <a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>
+                    {{--<a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>--}}
                 </div>
             </div>
             <!-- /service -->
@@ -245,14 +245,20 @@
                     <p>This course is designed for all who wish to work in high-peforming organizations and all who desire to work as
                         safety personnel including entrepreneurs, consultants, engineers, technical officers, medical practitioners,
                         project managers, HR managers, field/site workers, oil and gas  workers, bankers, business managers and others.</p>
-                    <a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>
+                    {{--<a href="http://www.iipmi.org/p/registration.html" class="btn btn-primary btn-sm">Register Now</a>--}}
                 </div>
             </div>
             <!-- /service -->
 
         </div>
         <!-- /Row -->
-
+        <div class="row">
+            <div class="col-md-12">
+                <strong>
+                    If you are interested in any of our courses, send us a mail at: iipmnigeria@gmail.com and we will get back to you.
+                </strong>
+            </div>
+        </div>
     </div>
     <!-- /Container -->
 
@@ -712,20 +718,117 @@
 
             <!-- Section header -->
             <div class="section-header text-center">
-                <h2 class="title">Recents news</h2>
+                <h2 class="title">Events/Conferences</h2>
             </div>
             <!-- /Section header -->
 
             <!-- blog -->
-            <div class="col-md-4">
+            <div class="col-md-7">
                 <div class="blog">
                     <div class="blog-img">
-                        <img class="img-responsive" src="./img/offer1.jpg" alt="">
+                        <img class="img-responsive" src="{{asset('img/2019summit.jpg')}}" alt="">
                     </div>
                     <div class="blog-content">
-                        <h3>2018 CALENDAR BREAKDOWN.</h3>
-                        <p> PROFESSIONAL TRAINING DIETS 2018 (11 Contacts or Weekends (Saturday) Per Diet)</p>
-                        <a href="http://www.iipmi.org/p/registration.html">Read more</a>
+                        <h3>BUSINESS EXCELLENCE SUMMIT</h3>
+                        <div>
+                            <p>In this economic time, the rampaging claws of hyper-competition is better experienced than explained. Creativity and innovation have become the driving competitive forces where customers have the benefits and organizations find it most challenging daily to satisfy customer needs and demands. How can businesses get to be operationally efficient to continuously drive high-level productivity, performance, profitability and
+                                sustainability while delivering excellent service to customers and all stakeholders?  </p>
+                        </div>
+                        <a href="http://www.iipmi.org/p/registration.html" data-toggle="modal" data-target="#myModal">Read more</a>
+                        <!-- Modal -->
+                        <div id="myModal" class="modal fade" role="dialog">
+                            <div class="modal-dialog modal-lg">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">BUSINESS EXCELLENCE SUMMIT</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <strong>PREAMBLE</strong>
+                                            <p>In this economic time, the rampaging claws of hyper-competition is better experienced than explained. Creativity and innovation have become the
+                                                driving competitive forces where customers have the benefits and organizations find it most challenging daily to satisfy customer needs and demands. How can businesses get to be operationally efficient to continuously drive high-level productivity, performance, profitability and sustainability while delivering excellent service to customers and all stakeholders? </p>
+                                            <p>In today’s rapidly changing global environment, every company and business leaders are faced with daily challenges of optimizing their performance through continuous improvement, quality assurance, and operational excellence.  This one day summit will be dealing will be addressing these issues.</p>
+                                            <br>
+                                            <strong>SCOPE OF THE SUMMIT</strong>
+                                            <p>The summit will comprise of professional workshops, exhibition, networking and discussions,
+                                                games, lunch breaks and certification.</p>
+                                            <br>
+                                            <strong>OBJECTIVES</strong><br>
+                                            By the end of this summit, participants would have known how to;
+                                            <p>
+                                                <ul>
+                                                    <li>Identify, analyze and improve on their operations for excellence,</li>
+                                                <li> Provide excellent service to customers thus resulting to sustainability</li>
+                                                <li> Build an excellence culture that supports continuous improvement and innovation, and</li>
+                                                <li>Build and maximize strategic collaborations for excellence.</li>
+                                                </ul>
+                                            </p>
+                                            <strong>SUMMIT WORKSHOPS</strong><br>
+                                            <p>
+                                                This summit will be addressing key issues in this present time.<br>
+                                                <ul>
+                                                <li>   Leadership and Culture for Excellence  </li>
+                                                <li> Improvement and Innovation for Excellence   </li>
+                                                <li>  Excellence for Sustainability</li>
+                                                <li>Collaboration for Excellence</li>
+                                            </ul>
+                                            </p>
+                                            <p>
+                                                <strong>SUMMIT AUDIENCE</strong><br>
+                                                CEOs, Business Executives, Directors, Entrepreneurs, Heads of Institutions and Managers.
+                                            </p>
+                                            <p>
+                                                <strong>SUMMIT EXPECTATIONS</strong><br>
+                                                Professional workshops, Professional Certifications, Exhibitions, Networking, Discussions, Games/fun, Lunch Breaks
+                                            </p>
+                                            <p>
+                                                <strong>SUBSCRIPTIONS</strong> <br>
+                                                Single: ₦15,000 <Br>
+                                                Couple: ₦27,000 <br>
+                                                Triple:  ₦42,000 <br>
+                                                Quadruple: ₦55,000 <br>
+                                                Exhibition: ₦10,000
+                                            </p>
+                                            <p>
+                                                <strong>PAYMENT</strong><br>
+                                                Make payments to: <br>
+                                                Account Name: Integrated Institute of Professional Management. <br>
+                                                Account Number: 1020017605 <br>
+                                                Bank Name: United Bank for Africa (UBA) PLC. <br>
+                                                <br>
+                                                Or Pay Online by <a href="https://paystack.com/pay/iipmnigeria">clicking here</a>
+                                            </p>
+                                            <p>
+                                                <strong>DATES & VENUES</strong><br>
+                                                ABUJA: Saturday April 20, 2019 | Box Office; Discovery Mall, 215 Konoko Street Off Ademola Adetokumbo Crescent, Wuse 2, Abuja.
+                                                <br>
+                                                Abuja Contact: 07062628598
+                                                <br><br>
+                                                LAGOS: Saturday May 11, 2019 | Business Outliers; 10 Bisi Ogabi Street, Ikeja, Lagos.
+                                                <br>
+                                                Lagos Contact: 08068475601
+                                            </p>
+                                            <p>
+                                                <strong>KEY SPEAKERS</strong><br>
+                                                <img src="{{asset('img/speakers.jpg')}}" class="img-responsive">
+                                                <br>
+                                                You can see more about our speakers by <a href="{{asset('files/faculty.pptx')}}">by clicking here</a>
+
+                                            </p>
+                                            <br>
+                                            <p>You can indicate interest for this summit by <a href="https://form.myjotform.com/62242902377556">filling this form</a> </p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -733,18 +836,18 @@
 
             <!-- blog -->
             <div class="col-md-4">
-                <div class="">
-                    <div class="blog-img">
-                        <iframe src="https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fiipminternational%2Fvideos%2F1424258561012053%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                    </div>
-                    <div class="blog-content">
-                        <h3>#AIPMC2017 Highlights
-                        </h3>
+                {{--<div class="">--}}
+                    {{--<div class="blog-img">--}}
+                        {{--<iframe src="https://web.facebook.com/plugins/video.php?href=https%3A%2F%2Fweb.facebook.com%2Fiipminternational%2Fvideos%2F1424258561012053%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>--}}
+                    {{--</div>--}}
+                    {{--<div class="blog-content">--}}
+                        {{--<h3>#AIPMC2017 Highlights--}}
+                        {{--</h3>--}}
 
-                        <p>2017 Annual International Professional Management Conference</p>
-                        <a href="https://web.facebook.com/pg/iipminternational/videos">Watch more</a>
-                    </div>
-                </div>
+                        {{--<p>2017 Annual International Professional Management Conference</p>--}}
+                        {{--<a href="https://web.facebook.com/pg/iipminternational/videos">Watch more</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
             </div>
             <!-- /blog -->
 
@@ -818,7 +921,7 @@
                     <i class="fa fa-map-marker"></i>
                     <h3>Address</h3>
                     <p>No. 3, Durban Street, Wuse 2, Abuja<br>
-                        Abuja, Nigeria</p>
+                        Nigeria</p>
                 </div>
             </div>
             <div class="col-sm-3">
@@ -881,7 +984,7 @@
 
                 <!-- footer copyright -->
                 <div class="footer-copyright">
-                    <p>Copyright © 2018. All Rights Reserved. Developed by <a href="http://www.facebook.com/obioha.uche1">MmuoDev</a> Theme by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    <p>Copyright © 2018. All Rights Reserved. Developed by <a href="#">MmuoDev</a> Theme by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                 </div>
                 <!-- /footer copyright -->
 

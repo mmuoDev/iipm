@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('download-file', function (){
+    $pathTofile = public_path(). "/files/faculty.pptx";
+   return response()->file($pathTofile);
+});

@@ -640,7 +640,7 @@ header {
 
 .about:after {
     content: "";
-    background-color: #1C1D21;
+    /*background-color: #1C1D21;*/
     position: absolute;
     left: 0;
     top: 0;
@@ -802,7 +802,7 @@ header {
 
 .service:after {
     content: "";
-    background-color: #1C1D21;
+    /*background-color: #1C1D21;*/
     position: absolute;
     left: 0;
     top: 0;
@@ -823,7 +823,7 @@ header {
 }
 
 .service:hover h3 {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 /*------------------------------------*\
